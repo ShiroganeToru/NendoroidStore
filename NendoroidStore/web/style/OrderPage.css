@@ -1,0 +1,174 @@
+body{
+    background-color: #FCA778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-container{
+    width: 80%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+.order-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    border-right: 2px solid #FF7A00;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+    height: 100%;
+}
+
+.form-container h1{
+    color: #FF7A00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    color: #404040;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.info-input{
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: #FF7A00;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-container form span{
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.form-container form span a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #FF7A00;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; 
+    padding-top: 20px;
+}
+
+.order-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.img-product{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-product img{
+    width: 100%;
+}
+
+.product-name{
+    width: 300px;
+    margin-right: 120px;
+}
+
+.quantity-input {
+    margin-top: 20px;
+}
+
+.quantity-input input{
+    padding: 5px;
+    width: 50px;
+    border: 1px solid #ADB5BD;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+
+.price{
+    width: 150px;
+    color: #FF7A00;
+    text-align: center;
+}
+
+.total-price, .vat, .delivery, .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #ADB5BD;
+}
+
+.total-price p, .vat p, .delivery p, .total p{
+    margin-left: 20px;
+}
+
+.total-price h2, .vat h2, .delivery h2, .total h1{
+    margin-right: 20px;
+}
+
+.total-price{
+    padding: 20px 0 10px 0;
+}
+
+.vat, .delivery, .total{
+    padding: 10px 0;
+    
+}
+
+.total{ color: #FF7A00;}
+
+.btn{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background-color: #FF7A00;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

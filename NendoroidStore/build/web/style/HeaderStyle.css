@@ -1,0 +1,114 @@
+.navbar{
+    border-bottom: 2px solid #FF7A00;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 98%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.selection a{
+    text-decoration: none;
+    color: #FF7A00;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.search{
+    border: 2px solid #FF7A00;
+    padding: 10px;
+    border-radius: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search form input[type=text] {
+  border: none;
+  outline: none;
+  width: 320px;
+  height: 25px;
+}
+
+.search form{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form i{
+    font-size: 25px;
+    color: #FF7A00;   
+}
+
+.search form button{
+    background-color: transparent;
+    border: none;
+}
+
+.personal i{
+    color: #FF7A00;
+    font-size: 32px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.personal a{
+    text-decoration: none;
+}
+
+.pop-up{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 60px;
+    top: 70px;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #FF7A00;
+}
+
+.login-btn, .register-btn{
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #FF7A00;
+}
+
+.pop-up .login-btn{
+    padding: 10px;
+    background-color: #FF7A00;
+    color: white;
+    margin: 20px 40px;
+}
+
+.pop-up .register-btn{
+    color: #FF7A00;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+

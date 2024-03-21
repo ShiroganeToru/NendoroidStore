@@ -1,0 +1,142 @@
+.display-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.title-bar{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+}
+
+.display-title{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    color: #FF7A00;
+}
+
+.line-decor-left, .line-decor-right{
+    width: 90%;
+    height: 25px;
+    background-color: #FF7A00;
+    margin-top: 2.5%;
+}
+
+.line-decor-left{
+    border-radius: 0 20px 20px 0;
+}
+.line-decor-right{
+    border-radius: 20px 0 0 20px;
+    margin-left: 10%;
+}
+
+.frame-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.frame-container form{
+    display: flex;
+    gap: 20px;
+}
+
+.list-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 40px;
+    border-right: 2px solid #FF7A00;
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ADB5BD;
+}
+
+.img-product{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-product img{
+    width: 100%;
+}
+
+.product-name{
+    width: 300px;
+}
+
+.quantity-input {
+    margin-top: 20px;
+}
+
+.quantity-input input{
+    padding: 5px;
+    width: 50px;
+    border: 1px solid #ADB5BD;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+
+.option-choice input{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.option-choice input:checked{
+    background-color: #FF7A00;
+}
+
+.price{
+    width: 150px;
+    color: #FF7A00;
+}
+
+.delete-btn{
+    padding: 10px 15px;;
+    border: none;
+    background-color: #F62929;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 30px;
+}
+
+.total h2, .total h1{
+    width: 100%;
+    text-align: right;
+}
+
+.total h1{
+    font-size: 64px;
+    color: #FF7A00;
+}
+
+.total button{
+    padding: 10px 60px;
+    border: none;
+    background-color: #FF7A00;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}

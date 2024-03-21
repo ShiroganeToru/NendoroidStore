@@ -1,0 +1,10 @@
+@import url(HeaderStyle.css);
+@import url(FooterStyle.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
